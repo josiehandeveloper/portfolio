@@ -1,0 +1,191 @@
+
+/* ---  Font --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  width: 100%;
+  
+}
+
+/* ---  Navigation --- */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: Lato;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+}
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+
+/* ---  Groups --- */
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+/* ---  Typography --- */
+
+h1 {
+  font-size: 28px;
+  font-family: Lato;
+  font-weight: 400;
+  color: black;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: Lato;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: Lato;
+  font-weight: 500;
+}
+
+p {
+ font-family: Lato;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+
+main a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+main  a:link { color:black; }
+main  a:visited { color: black; }
+main  a:hover { color: #bdbdbd; }
+a:active { color:black; }
+
+ul li {
+  font-family: Lato;
+}
+
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+main img {
+  width: 100%;
+}
+
+img.image-enhanced {
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+
+
+/* Contact */
+
+main.contact ol li a  {
+  font-family: Lato; 
+  
+}
+
+form {
+  padding-right: 8px;
+  /* Fixed small sizing issue on the right */
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+form label {
+  font-family: Lato;
+}
+
+form button {
+  font-family: Lato;
+}
+
+
+
